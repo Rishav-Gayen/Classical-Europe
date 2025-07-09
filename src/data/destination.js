@@ -136,7 +136,6 @@ export const destinations = [
       'Accomodation (3 Star)',
       'Accomodation (4 Star)',
       'Accomodation (5 Star)',
-      'Seafacing Villa',
       'Airbnb'
     ],
     metadata: {
@@ -187,7 +186,6 @@ export const destinations = [
       'Accomodation (3 Star)',
       'Accomodation (4 Star)',
       'Accomodation (5 Star)',
-      'Seafacing Villa',
       'Airbnb'
     ],
     metadata: {
@@ -223,13 +221,15 @@ export const destinations = [
       }
     ],
     accommodationOptions: [
-      '3 Star Cruise',
-      '4 Star Cruise',
+      'Accomodation (3 star)',
+      'Accomodation (4 star)',
+      'Accomodation (5 star)',
+      'Airbnb',
     ],
     metadata: {
-      region: 'nile',
+      region: 'Italy',
       popular: false,
-      idealFor: ['cruise', 'chilling']
+      idealFor: ['Fashion', 'lifestyle']
     }
   },
 
